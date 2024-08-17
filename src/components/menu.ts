@@ -9,7 +9,7 @@ export const menuData: Menus[] = [
     },
     {
         id: '1',
-        title: '系统管理',
+        title: '发票管理',
         index: '1',
         icon: 'HomeFilled',
         children: [
@@ -17,13 +17,13 @@ export const menuData: Menus[] = [
                 id: '11',
                 pid: '1',
                 index: '/system-user',
-                title: '用户管理',
+                title: '进项管理',
             },
             {
                 id: '12',
                 pid: '1',
                 index: '/system-role',
-                title: '角色管理',
+                title: '出项管理',
             },
             {
                 id: '13',
