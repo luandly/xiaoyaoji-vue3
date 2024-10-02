@@ -3,9 +3,9 @@
 	"version": "5.5.0",
 	"private": true,
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite --host",
 		"build": "vue-tsc --noEmit && vite build",
-		"serve": "vite preview"
+		"serve": "vite preview --host"
 	},
 	"dependencies": {
 		"@element-plus/icons-vue": "*",
